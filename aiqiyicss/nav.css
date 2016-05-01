@@ -1,0 +1,1534 @@
+
+body {
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    color: #333333;
+}
+body, button, input, select, textarea {
+    /*font: 12px/1.5 Tahoma,Helvetica,Arial,"\5FAE\8F6F\96C5\9ED1",sans-serif;*/
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, em, img, strong, dd, dl, dt, form, label, table, caption, tbody, tfoot, thead, tr, th, td, ul, li, p, a, i {
+    margin: 0;
+    padding: 0;
+}
+
+input, select, textarea, img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+input {
+    outline: none;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.site-title h3.today-focus {
+    background: 0;
+    padding-left: 0;
+}
+
+.news-title-large h3 {
+    line-height: 46px;
+    height: 46px;
+    background: 0;
+}
+.line .tit-bgLine .h3-btn{
+    padding-left: 25px;
+    background: url(http://www.qiyipic.com/common/fix/site/tit-playBtn.png) no-repeat 0 10px;
+}
+ .site-title h3 {
+    color: #699f00;
+    float: left;
+    padding-right: 7px;
+    height: 45px;
+    white-space: nowrap;
+    background: url(http://www.qiyipic.com/common/fix/site/tit-playBtn.png) no-repeat 0 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+/*公共样式*/
+.w1180 {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+#box {
+    width: 100%;
+    background: #222;
+}
+
+.navTop {
+    /*border-bottom: 1px solid #292929;*/
+}
+
+#banner .nav {
+    height: 55px;
+    padding-top: 4px;
+
+}
+
+#banner .nav h1 a {
+    float: left;
+    display: inline-block;
+    width: 105px;
+    height: 50px;
+    background: url("img/iqiyi-logo105x50.png") no-repeat;
+
+}
+
+#banner .nav .search {
+    float: left;
+    margin: 6px 0;
+    position: relative;
+
+}
+
+/*#banner .nav .search .sr{*/
+/*position: absolute;*/
+/*left: 105px;*/
+/*top: 0px;*/
+/*border: 10px solid green;*/
+/*display: block;*/
+/*float: left;*/
+/*margin-left: 163px;*/
+/*margin-bottom: 9px;*/
+/*border: 0;*/
+/*width: 338px;*/
+/*height: 16px;*/
+/*padding: 10px;*/
+/*background-color: #FFF;*/
+/*border-radius: 2px 0 0 2px;*/
+/*color: #ccc;*/
+/*border: 1px solid green;*/
+/*}*/
+/*鼠标点击的搜索框时的样式*/
+
+#banner .nav .search .srchDef .in input {
+    display: block;
+    float: left;
+    margin-left: 160px;
+    margin-bottom: 9px;
+    border: 0;
+    width: 340px;
+    height: 18px;
+    padding: 10px;
+    background-color: #E3E3E3;
+    border-radius: 2px 0 0 2px;
+    color: #ccc;
+}
+
+#banner .nav .search .srchDef .in input:hover {
+    background-color: #fff;
+}
+
+#banner .nav .search .srchDef .out input {
+    float: left;
+    display: block;
+    width: 110px;
+    height: 38px;
+    background: url("img/topNav-v2.png") no-repeat;
+    border: 0;
+    border-radius: 0 2px 2px 0;
+}
+
+#banner .nav .navlist {
+    float: right;
+    width: 442px;
+    padding-top: 15px;
+    text-align: right;
+    font-size: 0;
+
+}
+
+#banner .nav .navlist li {
+    float: right;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#banner .nav .navlist li a {
+    color: #ccc;
+
+    font-size: 14px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 8px;
+}
+
+#banner .nav .navlist li b {
+    margin-left: 3px;
+    font-size: 0;
+    width: 0px;
+    height: 0px;
+    border: 5px solid #999;
+    border-color: #999 transparent transparent transparent;
+
+}
+
+#banner .nav .navlist li .nav-1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+    overflow: hidden;
+    width: 14px;
+    height: 12px;
+    background: url("img/nav-upload.png");
+}
+
+#banner .nav .navlist li:hover a {
+    color: #6cc900;;
+}
+
+#banner .nav .navlist li:hover a b {
+    border-color: #6cc900 transparent transparent transparent;
+}
+
+#banner .nav .navlist li:hover a .nav-1 {
+    background: url("img/nav-upload-green.png");
+}
+
+#banner .nav .navlist li .nav-2 {
+    padding-top: 10px;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    line-height: 0;
+    overflow: hidden;
+    background: url("img/nav_msg_dot.png") no-repeat;
+}
+/*以上是导航栏*/
+.w1365 {
+    width: 1365px;
+    margin: 0 auto;
+
+}
+
+#navM {
+    position: relative;
+    z-index: 1;
+    width: 1365px;
+    height: 410px;
+    left: 0;
+    background-color: #010101;
+    overflow: hidden;
+}
+
+#navM ul {
+    position: absolute;
+    height: 410px;
+    left: 0;
+    vertical-align: baseline;
+    width: 1025%;
+
+}
+
+#navM ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+
+#navM ul li {
+    width: 1365px;
+    height: 410px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    float: left;
+
+}
+
+#navM ul li.navImg1 {
+    opacity: 1;
+    background: url("img/7b3118f5d9b843ac95299261206db8f1.jpg") no-repeat;
+}
+
+#navM ul li.navImg2 {
+    background: url("img/b3463a45284b4132b513b74e3a553b8b.jpg") no-repeat;
+}
+
+#navM ul li.navImg3 {
+    background: url("img/b3463a45284b4132b513b74e3a553b8b.jpg") no-repeat;
+}
+
+#navM ul li.navImg4 {
+    background: url("img/b3463a45284b4132b513b74e3a553b8b.jpg") no-repeat;
+}
+
+#navM ul li.navImg5 {
+    background: url("img/b3463a45284b4132b513b74e3a553b8b.jpg") no-repeat;
+}
+
+#navM ul li.navImg6 {
+    background: url("img/b3463a45284b4132b513b74e3a553b8b.jpg") no-repeat;
+}
+
+#navM ul li.navImg7 {
+    background: url("img/b3463a45284b4132b513b74e3a553b8b.jpg") no-repeat;
+}
+
+#navM ul li.navImg8 {
+    background: url("img/b3463a45284b4132b513b74e3a553b8b.jpg") no-repeat;
+}
+
+#navM ul li.navImg9 {
+    background: url("img/b3463a45284b4132b513b74e3a553b8b.jpg") no-repeat;
+}
+
+#navM ul li.navImg10 {
+    background: url("img/68aa1179f25c468692f3dd900ae3550c.jpg") no-repeat;
+}
+
+/*以上是焦点图图片*/
+
+.w1180-1 {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#navR {
+    background: url("img/site-focuslist_bg_new.png") no-repeat;
+    bottom: 22px;;
+    position: absolute;
+    top: -395px;
+    z-index: 5;
+    right: -15px;
+    overflow: hidden;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    width: 247px;
+    height: 371px;
+
+}
+
+#navR ul {
+    height: 340px;
+    overflow: hidden;
+    vertical-align: baseline;
+    margin: 18px 14px 20px 15px;
+}
+
+#navR li {
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+}
+
+#navR ul .navPromoted {
+    background: #63b504;
+}
+
+#navR ul .navPromoted a {
+    color: #fff;
+}
+
+#navR li a {
+    padding: 0 15px;
+    height: 31px;
+    line-height: 31px;
+    margin: 2px 0;
+    overflow: hidden;
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+}
+
+#navR li a:hover {
+    color: #fff;
+    /*background: -webkit-linear-gradient(top,#63b504,#569e04);*/
+    /*background: -moz-linear-gradient(top,#63b504,#569e04);*/
+    /*background: -ms-linear-gradient(top,#63b504,#569e04);*/
+    /*background: #63b504;*/
+}
+
+#navR li.nth-1 {
+    background: -webkit-linear-gradient(top, #63b504, #569e04);
+    background: -moz-linear-gradient(top, #63b504, #569e04);
+    background: -ms-linear-gradient(top, #63b504, #569e04);
+    background: #63b504;
+}
+
+/*以上是焦点图文字列表*/
+
+.navB {
+    padding: 10px 0;
+    background-color: #010101;
+    /*margin-bottom: 25px;*/
+}
+
+.navB .navOuter {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.navB .navOuter .navInner {
+    padding-top: 8px;
+    background: #000;
+    border: 1px solid #5aa700;
+    border-radius: 4px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.navB .navOuter .navCenter {
+
+    width: 100%;
+    overflow: hidden;
+}
+
+.navB .navOuter .navInner ul {
+    float: left;
+    background: url("");
+    padding-left: 2%;
+
+}
+
+.navB .navOuter .navInner .navTL li {
+    float: left;
+    width: 50%;
+}
+
+.navB .navOuter .navInner ul {
+    background: url("img/navMenu-line.png") no-repeat 0 -12px;
+}
+
+.navB .navOuter .navInner .nav_one {
+    width: 4.5%;
+}
+
+.navB .navOuter .navInner .nav_two {
+    width: 11%;
+}
+
+.navB .navOuter .navInner .nav_three {
+    width: 9%;
+}
+
+.navB .navOuter .navInner .nav_four {
+    width: 9%;
+}
+
+.navB .navOuter .navInner .nav_five {
+    width: 11%;
+}
+
+.navB .navOuter .navInner .nav_six {
+    width: 16%;
+}
+
+.navB .navOuter .navInner .nav_seven {
+    padding-left: 3%;
+    width: 15%;
+}
+
+.navB .navOuter .navInner .nav_eight {
+    margin-left: -3px;
+    height: 75px;
+    padding: 0 0 0 2%;
+
+}
+
+.navB .navOuter .navInner .nav_eight a {
+    background: url("img/vip-star.jpg") no-repeat;
+    width: 80px;
+    height: 74px;
+    display: block;
+    margin-top: 0;
+}
+
+.navB .navOuter .navInner ul li {
+
+    width: 100%;
+    /*display: list-item;*/
+    /*text-align: -webkit-match-parent;*/
+}
+
+.navB .navOuter .navInner ul li a {
+    width: 100%;
+    position: relative;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navB .navOuter .navInner ul li a:hover {
+    color: #6cc900;
+}
+
+/*此样式是公共样式，后面可以复用*/
+
+/*以上是二级导航图*/
+
+/*主体开始*/
+.main {
+    width: 100%;
+    background-color: #fff;
+    color: #666;
+    padding-top: 25px;
+}
+
+.mb20{
+    margin-bottom: 20px;
+}
+
+.main .main1180 {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.wrapper-cols {
+    overflow: hidden;
+    margin: 0 0 10px -20px;
+}
+
+
+.site-title {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.news-title-large {
+
+    border-bottom: 2px solid #85ba4d;
+    margin-left: 20px;
+    padding-left: 0;
+    margin-top: -20px;
+}
+
+
+
+.site-title_left {
+    height: 45px;
+    overflow: hidden;
+}
+
+.site-title h3.today-focus {
+    background: 0;
+    padding-left: 0;
+}
+
+.site-title h3 {
+    color: #699f00;
+    float: left;
+    padding-right: 7px;
+    height: 45px;
+    white-space: nowrap;
+}
+
+.news-title-large h3 {
+    line-height: 46px;
+    height: 46px;
+    background: 0;
+}
+
+.site-title h3.today-focus a {
+    padding-left: 0;
+}
+
+.site-title h3 a, .site-title h3 a:hover {
+    color: #699f00;
+    display: inline-block;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.site-title h3.today-focus a span, .site-title h3.today-focus span {
+    font-size: 24px;
+    padding-left: 0;
+}
+
+.site-title h3.today-focus a span.icon-more {
+    font-size: 14px;
+}
+
+.tipsWonder {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: 2;
+    text-align: right;
+}
+
+.pr {
+    position: relative;
+}
+
+.col-2 {
+    width: 400px;
+}
+
+.qy-col {
+    float: left;
+    display: inline;
+    _background: transparent;
+}
+
+.tips_btn {
+    display: inline-block;
+    height: 24px;
+    line-height: 22px;
+    padding-left: 8px;
+    text-align: left;
+    width: 56px;
+    border: 1px solid #e9e9e9;
+    border-radius: 20px;
+    color: #333;
+    font-size: 14px;
+}
+
+.icon-star {
+    background-position: -120px -400px;
+    height: 18px;
+}
+
+.site-icons {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    cursor: pointer;
+
+}
+
+.icon-star {
+    background: url(img/site-icons-qyIndex.png) no-repeat -119px -400px;
+}
+.tipsWonder_list {
+    width: 110px;
+    text-align: center;
+    display: none;
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    position: absolute;
+    top: 36px;
+    right: 0;
+}
+/*以上是今日焦点头部结束*/
+
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.newsList {
+    text-align: center;
+}
+
+.news-title {
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+.textOverflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.mod-newsList .mod-txtList {
+    font-size: 16px;
+}
+
+.mod-txtList {
+    position: relative;
+}
+
+.pt5 {
+    padding-top: 12px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    font: 0/0 a;
+}
+
+.fs16 {
+    font-size: 16px !important;
+}
+
+.txtList_col1 ul {
+    width: 100%;
+}
+
+.icon-video-listMark {
+    background: url(img/site-icons-qyIndex.png) no-repeat -99px -1420px;
+}
+
+.mod-newsList .txt-item li {
+    height: 32px;
+}
+
+/*以上是列表的文字end*/
+.wrapper-piclist {
+    width: 100%;
+    overflow: hidden;
+}
+
+.site-piclist-180101 {
+    height: 151px;
+}
+
+.site-piclist {
+    overflow: hidden;
+}
+
+.site-piclist-180101 li {
+    width: 180px;
+}
+
+.site-piclist li {
+    float: left;
+    padding-left: 20px;
+    height: 100%;
+}
+
+.site-piclist-180101 .site-piclist_pic {
+    height: 101px;
+}
+
+.site-piclist_pic {
+    overflow: hidden;
+}
+
+.site-piclist_pic {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.site-piclist_pic_link {
+    overflow: hidden;
+}
+
+.site-piclist_pic_link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.site-piclist_pic_link img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2 url(http://www.qiyipic.com/common/fix/site/site-nopic.png) no-repeat center center;
+}
+.site-piclist_pic_hide{
+    width: 758px;
+    margin: 0 10px;
+    height: 140px;
+    background: red;
+    display: inline-block;
+}
+
+.site-piclist_info {
+    text-align: center;
+    line-height: 20px;
+    padding: 7px 5px 0;
+    height: 47px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 15px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #699f00;
+}
+
+/*以上是今日焦点图左边部分end*/
+
+.wrapper-cols1Center {
+    float: left;
+    margin-left:20px ;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.w400 {
+    width: 380px;
+    margin-left: 20px;
+}
+
+.site-piclist-380252 {
+    width: 380px;
+    height: 252px;
+}
+.site-piclist1{
+    position: relative;
+    width: 380px;
+    height: 252px;
+}
+.site-piclist1 li{
+    float: left;
+}
+.site-piclist1:after {
+    clear: both;
+}
+#site-piclist1_ul{
+    position: absolute;
+    width: 760px;
+    height: 252px;
+}
+/*以上是主题第一栏中间部分的小轮播图 end */
+.piclistBtn{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    margin-top: -22px;
+    width: 25px;
+    height: 43px;
+}
+.piclistBtnL{
+
+    margin-left: 0;
+}
+.piclistBtnR{
+    right:0;
+}
+
+.piclistBtn a{
+    display: block;
+    width: 25px;
+    height: 43px;
+}
+
+.piclistBtnL a{
+    background: url("img/index-arrL-a.png")no-repeat;
+}
+.piclistBtnL a:hover{
+    background: url("img/index-arrL-v.png")no-repeat;
+}
+.piclistBtnR a{
+    background: url("img/index-arrR-a.png")no-repeat;
+}
+.piclistBtnR a:hover{
+    background: url("img/index-arrR-v.png")no-repeat;
+}
+
+/*以上是中间小轮播图的左右滑动按钮 end*/
+
+.wrapper-listTitle{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -40px;
+    cursor: pointer;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    padding: 0 6px 0 0;
+}
+
+.mod-listTitle {
+}
+
+.icon-play-greenV {
+    float: left;
+    width: 32px;
+    height: 27px;
+    margin: 7px 7px 0 7px;
+    background:url("img/index-playBtn.png")no-repeat;
+}
+.mod-listTitle_left{
+    overflow: hidden;
+    float:left;
+}
+
+/*以上是主体第一栏中间部分end*/
+/*第一栏全部 end*/
+
+.wrapper-piclistR{
+   display: inline;
+}
+
+.tit-bgLine{
+    /*padding-top: 15px;*/
+}
+.line{
+    border-bottom: 2px solid #8ac024;
+    margin-bottom: 25px;
+    padding-right: 244px;
+}
+.site-main-inner .tit-bgLine h3 a span{
+    font-size: 28px;
+
+}
+
+
+.title-subLinks{
+    /*font-size: 0;*/
+    padding-top: 18px;
+    height: 27px;
+    overflow: hidden;
+}
+.title-subLinks li{
+    padding: 0 8px 0 22px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: inline-block;
+    background: url("img/divide-i.png")no-repeat;
+
+}
+.title-subLinks li.firstItem{
+    background: 0;
+}
+/*以上是综艺左边头部列表*/
+.site-piclistH ul{
+    position: absolute;
+    width: 760px;
+    height: 252px;
+}
+
+.site-piclistH li{
+    width: 380px;
+
+
+}
+
+div.imgOverflow .site-piclistH{
+    height: 340px;
+    position: relative;
+    width: 760px;
+}
+.imgOverflow{
+
+    width: 100%;
+    height: 100%;
+}
+
+.margin-20{
+    margin-left: -20px;
+}
+
+.site-piclistH  li .texL{
+    text-align: left;
+    height: 47px;
+}
+.ptwo{
+    color: #999;
+    font-size: 12px;
+}
+.mod-listTitle{
+    position: absolute;
+    bottom:0px;
+   width: 380px;
+    color: white;
+}
+.mod-listTitle span{
+    border-radius: 3px;
+    height: 16px;
+    font: 12px/15px Tahoma,Helvetica,Arial,"\5FAE\8F6F\96C5\9ED1",sans-serif;
+    margin-right: 4px;
+    margin-top: 4px;
+    padding: 0 5px;
+    background: rgba(0,0,0,.6);
+    overflow: hidden;
+}
+.px1080p{
+    float: left;
+     }
+
+.date03-25{
+    float: right;
+}
+/*以上是第二栏左边部分*/
+
+.texH{
+    text-align: left;
+    height: 46px;
+    overflow: hidden;
+}
+
+.site-piclist-180101-describe{
+    height: 170px;
+}
+.site-piclistH li .site-piclist_pic_link {
+   height: 270px;
+}
+.w180{
+    width: 180px;
+    bottom: 0;
+}
+
+.mod-listTitle70{
+ bottom: 70px;
+}
+/*第二栏中间部分 end*/
+
+.senCenter,.senLeft{
+    display: inline-block;
+}
+.senRight{
+    padding-left: 0;
+    float: right;
+}
+.senL{
+    float: left;
+}
+
+.senRightM{
+  margin-right: 0;
+    padding-right: 0;
+}
+li.site-piclist_picR{
+    padding-left: 0;
+}
+.noOverflow{
+    overflow: visible;
+}
+.borderBottom{
+   border-bottom: 1px dotted #ccc;;
+}
+.secText{
+    overflow: hidden;
+    padding:0px 10px 3px;
+    border-bottom: 1px solid #ebebeb;
+}
+.secText li{
+    overflow: hidden;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+
+}
+.bg{
+    float: left;
+    background: #f2f2f2;
+}
+.pd20{
+    padding-left: 20px;
+}
+ul li.noPd20,.senCenter .h192 .noPd20{
+   padding-left: 0;
+}
+/*以上是综艺列表结束*/
+
+.line-e1e1e1{
+    border-bottom: 1px solid #e1e1e1;
+}
+.line-e1e1e1 .size22 h3.h3-btn span.jrjd {
+    font-size: 22px;
+    padding-left: 0;
+}
+.line-e1e1e1 .size22 h3.h3-btn{
+    padding: 0;
+    background: 0;
+}
+.line-e1e1e1 .size22{
+    height: 40px;
+}
+/*以上是脱口秀结束*/
+
+.line444{
+    width: 100%;
+    padding-right: 265px;
+}
+
+.radomjubaodn{
+    display: none;
+}
+.site-title_right{
+    float: right;
+}
+.icon-subject {
+    display: inline-block;
+    width: 37px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+    background: #699f00;
+    color: #fff;
+}
+.site-piclist_icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0;
+}
+
+.icon-viedo-self{
+    display: inline-block;
+    vertical-align: middle;
+  background: url("img/site-icons-qyIndex.png")no-repeat;
+    width: 42px;
+    height: 40px;
+    background-position: -100px -1200px;
+}
+ .e1e1e1 .size22 h3.h3-btn a span.fz28{
+    font-size: 28px;
+}
+ .icon-lun{
+     background: url("img/site-icons-qyIndex.png")no-repeat;
+     width: 14px;
+     height: 14px;
+     margin-right: 7px;
+     background-position: -200px -1480px;
+ }
+ .change{
+     border: 0;
+     width: 67px;
+ }
+ .changeH{
+     top:33px
+ }
+ .bgGreen{
+     cursor: pointer;
+     height: 155px;
+     line-height: 155px;
+     text-align: center;
+     background: greenyellow;
+     background: hsl(80, 100%, 35%);
+     box-shadow: 0 0 10px rgba(0,0,0,.3) inset;
+ }
+.bgGreen:hover{
+    background-color: hsl(89, 61%, 42%);;
+}
+.bgGreen a{
+    color: hsl(0, 100%, 100%);
+    font-size: 22px;
+}
+
+/*猜你喜欢结束*/
+.bg155{
+    position: relative;
+    height: 174px;
+}
+
+.user-pic img{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+.bg155 .user-pic{
+    height: 54px;
+    display: inline;
+    float: left;
+    width: 54px;
+    padding: 14px 0 0 14px;
+}
+.useTitle{
+    display: inline;
+    float: left;
+    padding-left: 10px;
+    padding-top: 14px;
+    padding-bottom: 3px;
+}
+.bg155 .vtWh .vt{
+    background-color: hsl(83, 62%, 44%);
+    width: 148px;
+    padding: 0;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 3px;
+    border: 1px solid hsl(82, 77%, 41%);
+}
+.bg155 .vtWh .vt a{
+    color: hsl(0, 100%, 100%);
+    font-size: 14px;
+}
+
+.user-vide {
+    display: inline;
+    float: left;
+    padding-left: 10px;
+    padding-top: 0;
+    width: 87px;
+    _width: 82px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.user-vide span{
+    color: hsl(0, 0%, 60%);
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.user-vide em{
+    color: hsl(0, 0%, 20%);
+    font-size: 12px;
+    font-style: normal;
+}
+.item-title-decr{
+    width: 148px;
+    position: absolute;
+    top: 85px;
+    left: 15px;
+    height: 36px;
+    overflow: hidden;
+    color: hsl(0, 0%, 60%);
+    font-size: 12px;
+}
+.bg155 .vtWh{
+    position: absolute;
+    top: 132px;
+    left:-12px;
+}
+
+.h192{
+    overflow: hidden;
+    height: 192px;
+}
+
+.h192 .h174{
+    height: 174px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+.site-piclist_pic_left{
+    width: 170px;
+    float: left;
+    margin:  0 10px;
+}
+.site-piclist_pic_right,.site-piclist_pic_right1{
+    display: none;
+    float: left;
+    margin:0 10px 0 10px;
+    width: 740px;
+    height: 140px;
+}
+
+.ad{
+    padding: 25px 0;
+}
+
+.adTittle{
+    width: 84px;
+    height: 22px;
+    background: #8ac024;
+    color: white;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+}
+.adAll{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 1px;
+    width: 1180px;
+    margin: 0 auto;
+    border: 1px solid #8ac024;;
+}
+
+.adBtn{
+    position: absolute;
+    top:50%;
+    width: 15px;
+    height: 26px;
+}
+.adBtnL{
+    left:5px;
+    background: url("img/arrow-left.png")no-repeat;
+}
+.adBtnR{
+    right:5px;
+    background: url("img/arrow-right.png")no-repeat;
+}
+.adImg .h140,.adImg3{
+    height: 140px;
+}
+
+.adImg,.adImg3{
+    width: 5000px;
+    height: 140px;
+
+}
+.adImg1{
+    width: 170px;
+    height: 100px;
+}
+.adImg2{
+    width: 170px;
+    height: 40px;
+}
+
+.auto{
+    width: 1120px;
+    margin: 0 20px;
+}
+.adImg .h140 .w170{
+    width: 168px;
+}
+/*推广广告结束*/
+
+.senCenter .h304{
+    height: 304px;
+}
+.senCenter .h236{
+    height: 236px;
+}
+
+.fs-icons{
+    background: -webkit-gradient(linear,0 0,0 100%,from(hsl(80, 100%, 36%)),to(hsl(81, 100%, 31%)));
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.secText .textL{
+    text-align: left;
+}
+.senRight .secTextFilm{
+    border:0;
+    padding-left: 0;
+}
+.bg-gray{
+    background: -webkit-gradient(linear,0 0,0 100%,from(hsl(0, 0%, 67%)),to(hsl(0, 0%, 60%)));
+}
+.senRight .secTextFilm li {
+    line-height: 0;
+}
+.senRightW175{
+    width: 175px;
+}
+.main1180 .pd0{
+    margin-bottom: 0;
+}
+li .texH27{
+    height: 27px;
+}
+.site-piclistH li .texH27{
+    height: 27px;
+}
+.senCenter .h151{
+    height: 151px;
+}
+.pdR0{
+    padding-right: 0;
+}
+
+.float{
+    float: left;
+}
+.pd8{
+    padding-top: 8px;
+}
+.pd8 li{
+    background: 0;
+
+}
+.pd8 li a{
+    color: hsl(0, 0%, 20%);
+}
+
+.wFilm1{
+    float: left;
+}
+.wFilm2{
+    float: right;
+}
+.wFilm{
+    overflow: hidden;
+}
+/*电视剧结束*/
+
+.site-piclistH li .h252{
+    height: 252px;
+}
+
+.site-piclistH .li .exH27{
+    height: 27px;
+}
+.mR20{
+    margin-right: 20px;
+
+}
+.tit-bgLine .h3-btn ul .firstItem{
+    background: 0;
+}
+ul .pdL0{
+    padding-left: 0;
+    padding-right: 0;
+}
+/*儿童动漫结束*/
+
+ul .w0{
+    width: 180px;
+}
+.imgOverflow ul.w100{
+    width: 100%;
+}
+
+/*体育音乐时尚结束*/
+.senLeft .imgOverflow .site-piclistH1{
+    height: 289px;
+}
+/* 汽车财经结束*/
+
+.bg1{
+    overflow: hidden;
+    background: hsl(0, 0%, 95%);
+    border-top: 1px solid hsl(0, 0%, 92%);
+    border-bottom: 1px solid hsl(0, 0%, 92%);
+    padding: 10px 12px 0 10px;
+}
+.topList-yc-6666 .top-yc li {
+    clear: both;
+    height: 66px;
+    margin-bottom: 12px;
+}
+.topList-yc-6666 .top-yc_headImg {
+    width: 64px;
+    height: 64px;
+    border: 1px solid hsl(0, 0%, 85%);
+    position: relative;
+    float: left;
+    margin-right: 8px;
+}
+.topList-yc-6666 .top-yc_headImg img {
+    width: 64px;
+    height: 64px;
+}
+.mod_media, .mod_media_bd, .o-hidden {
+    overflow: hidden;
+}
+.topList-yc-6666 .top-yc_userName {
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+.topList-yc-6666 .dy-num {
+    line-height: 20px;
+    height: 22px;
+    overflow: hidden;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: hsl(0, 0%, 60%);
+}
+.topList-yc-6666 .dy-num a {
+    color: hsl(0, 0%, 60%);
+}
+.topList-yc-6666 .top-yc_userCare .btn-care {
+    width: 66px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0;
+    border: 1px solid hsl(81, 100%, 31%);
+    background: hsl(80, 100%, 31%);
+    color: hsl(0, 100%, 100%);
+    border-radius: 3px;
+}
+
+.btn-care .site-icons {
+    height: 11px;
+}
+.site-icons {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    /*background: url(http://www.qiyipic.com/common/fix/site/site-icons-qyIndex.png) no-repeat;*/
+}
+
+.btn-care{
+    display: inline-block;
+}
+
+.site-icons {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.btn-care span{
+    margin-left: 10px;
+}
+.relitive{
+    position: relative;
+}
+.find{
+
+}
+.find p{
+    height: 24px;
+    line-height: 24px;
+    padding-left: 10px;
+    width: 170px;
+    color: hsl(0, 100%, 100%);
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    bottom: 50px;
+}
+li .lastList {;
+    text-align: center;
+    height: 27px;
+    border-bottom: 5px solid hsl(81, 100%, 32%);
+    background: hsl(81, 68%, 45%);
+    line-height: 22px;
+    padding-left: 15px;
+}
+li .lastList a{
+    font-size: 22px;
+    color: hsl(0, 100%, 100%);
+}
+.site-piclist li .lastList a span{
+    font-size: 22px;
+}
+
+
+.site-piclist_info h3 a:hover{
+    opacity: .9;
+    color: hsl(0, 100%, 100%); ;
+}
+
+.p30{
+    padding-top: 30px;
+}
+/*游戏视频 奇秀结束*/
